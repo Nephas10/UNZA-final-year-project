@@ -1,0 +1,98 @@
+.quotation-detail {
+  padding: 20px;
+}
+
+.loading {
+  padding: 20px;
+  font-style: italic;
+  color: gray;
+}
+
+.status-badge {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+.status-badge.accepted {
+  background-color: green;
+}
+
+.status-badge.pending {
+  background-color: orange;
+}
+
+.status-badge.draft {
+  background-color: gray;
+}
+
+.status-badge.rejected {
+  background-color: red;
+}
+
+.btn-accept {
+  margin-top: 15px;
+  padding: 8px 15px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-accept:hover {
+  background-color: #1e8449;
+}
+
+.accepted-msg {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.quotation-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.quotation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.quotation-table th,
+.quotation-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.quotation-table th {
+  background: #f4f6f8;
+}
+
+.quotation-table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.btn-export {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-export:hover {
+  background-color: #2980b9;
+}

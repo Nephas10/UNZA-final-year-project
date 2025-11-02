@@ -1,0 +1,103 @@
+/* Page Container */
+.new-client-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.new-client-container h2 {
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Success Popup */
+.success-popup {
+  background: #e9f9ee;
+  color: #1e7e34;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border-left: 5px solid #28a745;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Form Layout */
+.new-client-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.new-client-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  color: #34495e;
+}
+
+.new-client-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.new-client-form input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+  outline: none;
+}
+
+/* Submit Button */
+.new-client-btn {
+  background: linear-gradient(135deg, #3498db, #217dbb);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.new-client-btn:hover {
+  background: linear-gradient(135deg, #217dbb, #1a5a8a);
+  transform: translateY(-2px);
+}
+
+/* Popup animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ✅ Responsive */
+@media (max-width: 600px) {
+  .new-client-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .new-client-btn {
+    width: 100%;
+  }
+}

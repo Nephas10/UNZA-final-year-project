@@ -1,0 +1,73 @@
+.receipts-container {
+  padding: 30px;
+  background-color: #f8f9fb;
+  min-height: 100vh;
+}
+
+.receipts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.receipts-header h2 {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.table-wrapper {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
+}
+
+.receipts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.receipts-table th,
+.receipts-table td {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.receipts-table th {
+  background-color: #2e86de;
+  color: white;
+  font-weight: 600;
+}
+
+.receipts-table tr:nth-child(even) {
+  background-color: #f3f7fd;
+}
+
+.receipts-table tr:hover {
+  background-color: #eaf2fd;
+  transition: background 0.2s ease;
+}
+
+.view-link {
+  background-color: #27ae60;
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.view-link:hover {
+  background-color: #219150;
+}
+
+.no-data {
+  text-align: center;
+  color: #999;
+  padding: 20px 0;
+  font-style: italic;
+}

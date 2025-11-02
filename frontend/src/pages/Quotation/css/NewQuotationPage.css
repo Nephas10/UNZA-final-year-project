@@ -1,0 +1,117 @@
+/* Container */
+.quotation-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.quotation-container h2 {
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+}
+
+/* Form */
+.quotation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quotation-form label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  color: #34495e;
+}
+
+.quotation-form input,
+.quotation-form select,
+.quotation-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.quotation-form input:focus,
+.quotation-form select:focus,
+.quotation-form textarea:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+  outline: none;
+}
+
+/* Items Section */
+.items-section h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.item-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #fafafa;
+}
+
+.item-card label {
+  font-weight: 500;
+  margin-top: 10px;
+  display: block;
+}
+
+.item-card input {
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+  background: linear-gradient(135deg, #3498db, #217dbb);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #217dbb, #1a5a8a);
+  transform: translateY(-2px);
+}
+
+.remove-btn {
+  background: #e74c3c;
+  margin-top: 10px;
+}
+
+.remove-btn:hover {
+  background: #c0392b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quotation-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

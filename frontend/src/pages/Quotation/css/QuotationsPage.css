@@ -1,0 +1,84 @@
+.quotations-container {
+  padding: 20px;
+}
+
+.quotations-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn-create {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-create:hover {
+  background-color: #219150;
+}
+
+/* Table styles */
+.table-container {
+  overflow-x: auto;
+}
+
+.quotations-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+}
+
+.quotations-table th,
+.quotations-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.quotations-table th {
+  background: #f4f6f8;
+}
+
+.quotations-table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* Status badges */
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.status-badge.accepted {
+  background-color: green;
+}
+
+.status-badge.pending {
+  background-color: orange;
+}
+
+.status-badge.draft {
+  background-color: gray;
+}
+
+.status-badge.rejected {
+  background-color: red;
+}
+
+.view-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-link:hover {
+  text-decoration: underline;
+}
